@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-Module for Amenity class
+defines all common attributes/methods for Amenity.
 """
+
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Custom amenity class
-
-    Attributes:
-        name(str): amenity name
-
+    """
+    Defines all common attributes/methods for Amenity,
+    while inheriting from the `BaseModel` class.
     """
     name = ""

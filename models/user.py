@@ -1,19 +1,16 @@
 #!/usr/bin/python3
 """
-Defines the User class.
+defines all common attributes/methods for User.
 """
+
+
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """Represent a User
-
-    Attributes:
-        email (str): user email
-        password (str): user password
-        first_name (str): first name
-        last_name (str): last name
-
+    """
+    Defines all common attributes/methods for User,
+    while inheriting from the `BaseModel` class.
     """
     email = ""
     password = ""

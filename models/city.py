@@ -1,18 +1,16 @@
 #!/usr/bin/python3
 """
-Defines the City class
+defines all common attributes/methods for City.
 """
+
+
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Represent a city
-
-    Attributes:
-        state_id (str): The state id.
-        name (str): The name of the city
-
     """
-
+    Defines all common attributes/methods for City,
+    while inheriting from the `BaseModel` class.
+    """
     state_id = ""
     name = ""
