@@ -19,33 +19,17 @@ git@github.com:EmmanuelOnyekachi21/AirBnB_clone.git
 ```
 
 2. Navigate to the project directory:
+
 ```bash
 cd AirBnB_clone
 ```
 
 3. Run the console:
+
 ```bash
 ./console.py
 ```
 
-
 ### How to Use It
 
-Once the command interpreter is running, you can use the following commands:
-
-- `create_user`: Create a new user.
-- `create_property`: Create a new property.
-- `book_property`: Book a property.
-- `list_users`: List all users.
-- `list_properties`: List all properties.
-- `list_bookings`: List all bookings.
-- `help` or `?`: Display help message.
-
-### Examples
-
-Here are some examples of using the command interpreter:
-
-```plaintext
-$ python console.py
-(hbnb) create_user John
-```
+Once the command interpreter is running, you can use the following commands
